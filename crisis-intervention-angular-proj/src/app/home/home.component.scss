@@ -1,0 +1,30 @@
+.darkBg {
+    background-color: black;
+}
+
+.bg2 {
+    background-color: white;
+    color: black;
+}
+
+
+.contactBtn {
+    text-align: center;
+    text-decoration: none;
+    border: 1px solid black;
+    border-radius: 4px;
+    padding: 5px 13px;
+    // color: white!important;
+    // background-color: black;
+}
+
+
+@media screen and (max-width: 480px) {
+    .multipleImages {
+        height: 110px !important;
+    }
+
+    .mainHeading {
+        letter-spacing: 10px!important;
+    }
+}

@@ -1,0 +1,23 @@
+<div class="headerDiv">
+    <nav class="navbar navbar-expand-md navbar-light">
+        <!-- <a href="#" class="navbar-brand">
+            <img class="logoImg" src="../assets/images/favicon.png" />
+            <span class="name"> St Ann's Sneha Bhavan</span>
+        </a> -->
+        <button type="button" class="navbar-toggler toggleBtn" data-toggle="collapse" data-target="#navbarCollapse">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+            <div class="navbar-nav ml-auto">
+                <a routerLink="/" class="nav-item nav-link">Home</a>
+                <a routerLink="/other-activities" class="nav-item nav-link">Other Activities</a>
+                <a routerLink="/contact" class="nav-item nav-link">Contact</a>
+            </div>
+        </div>
+    </nav>
+</div>
+<div class="mainBody">
+    <router-outlet></router-outlet>
+</div>
+
