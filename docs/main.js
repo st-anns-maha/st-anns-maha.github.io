@@ -7,7 +7,7 @@
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! F:\experiments\st-anns\crisis-intervention-angular-proj\src\main.ts */"zUnb");
+module.exports = __webpack_require__(/*! F:\experiments\st-anns\st-anns-maha.github.io\crisis-intervention-angular-proj\src\main.ts */"zUnb");
 
 
 /***/ }),
@@ -673,6 +673,10 @@ const routes = [
                 path: '**', redirectTo: '/home'
             }
         ]
+    },
+    {
+        path: '**',
+        redirectTo: ''
     }
 ];
 class AppRoutingModule {
