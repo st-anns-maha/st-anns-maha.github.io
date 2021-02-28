@@ -22,11 +22,10 @@
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
             "tsConfig": "tsconfig.app.json",
-            "aot": true,
+          "aot": true,
             "assets": [
               "src/favicon.ico",
-              "src/assets",
-              "src/404.html"
+              "src/assets"
             ],
             "styles": [
               "src/styles.scss"
