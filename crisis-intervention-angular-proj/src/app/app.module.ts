@@ -8,6 +8,8 @@ import { OtherActivitiesComponent } from './other-activities/other-activities.co
 import { SiteLayoutComponent } from './site-layout/site-layout.component';
 import { HomeComponent } from './home/home.component';
 
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -18,6 +20,7 @@ import { HomeComponent } from './home/home.component';
   ],
   imports: [
     BrowserModule,
+    NgbModule,
     AppRoutingModule
   ],
   providers: [],
