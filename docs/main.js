@@ -27,21 +27,28 @@ __webpack_require__.r(__webpack_exports__);
 
 
 class HomeComponent {
-    constructor() { }
+    constructor() {
+        this.heading = 'CRISIS INTERVENTION CENTRE FOR WOMEN AT RISK';
+        this.title = `St Ann's Sneha Bhawan Women's Shelter Home`;
+    }
     ngOnInit() {
+        setInterval(() => {
+            this.heading = (this.heading == 'CRISIS INTERVENTION CENTRE FOR WOMEN AT RISK') ? 'जोखीम असलेल्या महिलांसाठी संकट इंटरव्हेंशन सेंटर' : 'CRISIS INTERVENTION CENTRE FOR WOMEN AT RISK';
+            this.title = (this.title == `St Ann's Sneha Bhawan Women's Shelter Home`) ? 'सेंट एनस् स्नेहा भवन महिला आश्रयस्थान' : `St Ann's Sneha Bhawan Women's Shelter Home`;
+        }, 5000);
     }
 }
 HomeComponent.ɵfac = function HomeComponent_Factory(t) { return new (t || HomeComponent)(); };
-HomeComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: HomeComponent, selectors: [["app-home"]], decls: 128, vars: 0, consts: [[1, "displaySection"], [1, "row", "col-12", "section"], [1, "col-lg-6", "col-sm-12", "col-md-12", "subSection", "titleSection", "darkBg"], [1, "col-12", "titleSectionDiv"], [1, "subHeading"], [1, "mainHeading"], [1, "col-lg-6", "col-sm-12", "col-md-12", "subSection"], [1, "imageContainer"], ["src", "../../assets/images/display-images/20.jpg", 1, "mainImg"], [1, "hrLine"], [1, "imageContainer", "padding0"], [1, "col-12", "row", "padding0"], [1, "col-6", "padding0"], ["src", "../../assets/images/display-images/2.jpg", 1, "multipleImages"], ["src", "../../assets/images/display-images/4.jpg", 1, "multipleImages"], ["src", "../../assets/images/display-images/19.jpg", 1, "multipleImages"], ["src", "../../assets/images/display-images/6.jpg", 1, "multipleImages"], [1, "col-lg-6", "col-sm-12", "col-md-12", "subSection", "textSection"], [1, "col-12", "textSectionDiv"], [1, "subText"], ["src", "../../assets/images/display-images/22.jpg", 1, "mainImg"], [1, "col-lg-12", "col-sm-12", "col-md-12", "subSection", "invitationSection"], [1, "col-12", "invitationSubSection"], [1, "subText", "textAlignCenter"], [1, "contactBtn"], ["routerLink", "/contact"], ["src", "../../assets/images/display-images/13.jpg", 1, "mainImg"], [1, "col-12", "footer"], [1, "row", "socialSites"], ["src", "../../assets/images/facebook.png"], ["src", "../../assets/images/instagram.png"], ["src", "../../assets/images/gmail.png"], ["src", "../../assets/images/linkedin.png"], [1, "row", "copyrightText"], [1, "far", "fa-copyright"]], template: function HomeComponent_Template(rf, ctx) { if (rf & 1) {
+HomeComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: HomeComponent, selectors: [["app-home"]], decls: 128, vars: 2, consts: [[1, "displaySection"], [1, "row", "col-12", "section"], [1, "col-lg-6", "col-sm-12", "col-md-12", "subSection", "titleSection", "darkBg"], [1, "col-12", "titleSectionDiv"], [1, "subHeading"], [1, "mainHeading"], [1, "col-lg-6", "col-sm-12", "col-md-12", "subSection"], [1, "imageContainer"], ["src", "../../assets/images/display-images/20.jpg", 1, "mainImg"], [1, "hrLine"], [1, "imageContainer", "padding0"], [1, "col-12", "row", "padding0"], [1, "col-6", "padding0"], ["src", "../../assets/images/display-images/2.jpg", 1, "multipleImages"], ["src", "../../assets/images/display-images/4.jpg", 1, "multipleImages"], ["src", "../../assets/images/display-images/19.jpg", 1, "multipleImages"], ["src", "../../assets/images/display-images/6.jpg", 1, "multipleImages"], [1, "col-lg-6", "col-sm-12", "col-md-12", "subSection", "textSection"], [1, "col-12", "textSectionDiv"], [1, "subText"], ["src", "../../assets/images/display-images/22.jpg", 1, "mainImg"], [1, "col-lg-12", "col-sm-12", "col-md-12", "subSection", "invitationSection"], [1, "col-12", "invitationSubSection"], [1, "subText", "textAlignCenter"], [1, "contactBtn"], ["routerLink", "/contact"], ["src", "../../assets/images/display-images/13.jpg", 1, "mainImg"], [1, "col-12", "footer"], [1, "row", "socialSites"], ["src", "../../assets/images/facebook.png"], ["src", "../../assets/images/instagram.png"], ["src", "../../assets/images/gmail.png"], ["src", "../../assets/images/linkedin.png"], [1, "row", "copyrightText"], [1, "far", "fa-copyright"]], template: function HomeComponent_Template(rf, ctx) { if (rf & 1) {
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "section", 0);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "div", 1);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](2, "div", 2);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](3, "div", 3);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](4, "span", 4);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](5, " St Ann\u2019s Sneha Bhavan ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](5);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](6, "h1", 5);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](7, " CRISIS INTERVENTION CENTRE FOR WOMEN AT RISK ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](7);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
@@ -79,7 +86,7 @@ HomeComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComp
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](28, " Offers a helping hand to the women in crisis ");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](29, "p", 19);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](30, " St. Ann's Sneha Bhavan renders its helping hand to the women in crisis, who need support, understanding, safety and security. Life is precious and it is to be valued, cared, protected, dignified and up held. ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](30, " St. Ann's Sneha Bhawan Women's Shelter Home renders its helping hand to the women in crisis, who need support, understanding, safety and security. Life is precious and it is to be valued, cared, protected, dignified and up held. ");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
@@ -239,6 +246,11 @@ HomeComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComp
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](127, " A Unit of St.Ann\u2019s Society, Maharashtra Trust Reg.No.253, Ahmednagar");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+    } if (rf & 2) {
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](5);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate1"](" ", ctx.title, " ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](2);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate1"](" ", ctx.heading, " ");
     } }, directives: [_angular_router__WEBPACK_IMPORTED_MODULE_1__["RouterLinkWithHref"]], styles: [".darkBg[_ngcontent-%COMP%] {\n  background-color: black;\n}\n\n.bg2[_ngcontent-%COMP%] {\n  background-color: white;\n  color: black;\n}\n\n.contactBtn[_ngcontent-%COMP%] {\n  text-align: center;\n  text-decoration: none;\n  border: 1px solid black;\n  border-radius: 4px;\n  padding: 5px 13px;\n}\n\n@media screen and (max-width: 480px) {\n  .multipleImages[_ngcontent-%COMP%] {\n    height: 110px !important;\n  }\n\n  .mainHeading[_ngcontent-%COMP%] {\n    letter-spacing: 10px !important;\n  }\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi4uXFwuLlxcLi5cXGhvbWUuY29tcG9uZW50LnNjc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7RUFDSSx1QkFBQTtBQUNKOztBQUVBO0VBQ0ksdUJBQUE7RUFDQSxZQUFBO0FBQ0o7O0FBR0E7RUFDSSxrQkFBQTtFQUNBLHFCQUFBO0VBQ0EsdUJBQUE7RUFDQSxrQkFBQTtFQUNBLGlCQUFBO0FBQUo7O0FBTUE7RUFDSTtJQUNJLHdCQUFBO0VBSE47O0VBTUU7SUFDSSwrQkFBQTtFQUhOO0FBQ0YiLCJmaWxlIjoiaG9tZS5jb21wb25lbnQuc2NzcyIsInNvdXJjZXNDb250ZW50IjpbIi5kYXJrQmcge1xyXG4gICAgYmFja2dyb3VuZC1jb2xvcjogYmxhY2s7XHJcbn1cclxuXHJcbi5iZzIge1xyXG4gICAgYmFja2dyb3VuZC1jb2xvcjogd2hpdGU7XHJcbiAgICBjb2xvcjogYmxhY2s7XHJcbn1cclxuXHJcblxyXG4uY29udGFjdEJ0biB7XHJcbiAgICB0ZXh0LWFsaWduOiBjZW50ZXI7XHJcbiAgICB0ZXh0LWRlY29yYXRpb246IG5vbmU7XHJcbiAgICBib3JkZXI6IDFweCBzb2xpZCBibGFjaztcclxuICAgIGJvcmRlci1yYWRpdXM6IDRweDtcclxuICAgIHBhZGRpbmc6IDVweCAxM3B4O1xyXG4gICAgLy8gY29sb3I6IHdoaXRlIWltcG9ydGFudDtcclxuICAgIC8vIGJhY2tncm91bmQtY29sb3I6IGJsYWNrO1xyXG59XHJcblxyXG5cclxuQG1lZGlhIHNjcmVlbiBhbmQgKG1heC13aWR0aDogNDgwcHgpIHtcclxuICAgIC5tdWx0aXBsZUltYWdlcyB7XHJcbiAgICAgICAgaGVpZ2h0OiAxMTBweCAhaW1wb3J0YW50O1xyXG4gICAgfVxyXG5cclxuICAgIC5tYWluSGVhZGluZyB7XHJcbiAgICAgICAgbGV0dGVyLXNwYWNpbmc6IDEwcHghaW1wb3J0YW50O1xyXG4gICAgfVxyXG59XHJcbiJdfQ== */"] });
 
 
@@ -283,7 +295,9 @@ const environment = {
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "SiteLayoutComponent", function() { return SiteLayoutComponent; });
 /* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "fXoL");
-/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/router */ "tyNb");
+/* harmony import */ var _ng_bootstrap_ng_bootstrap__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @ng-bootstrap/ng-bootstrap */ "1kSV");
+/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/router */ "tyNb");
+
 
 
 class SiteLayoutComponent {
@@ -316,7 +330,7 @@ SiteLayoutComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefi
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](12, "div", 9);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](13, "router-outlet");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-    } }, directives: [_angular_router__WEBPACK_IMPORTED_MODULE_1__["RouterLinkWithHref"], _angular_router__WEBPACK_IMPORTED_MODULE_1__["RouterOutlet"]], styles: [".logoImg[_ngcontent-%COMP%] {\n  height: 45px;\n}\n\n.name[_ngcontent-%COMP%] {\n  font-family: \"Oswald\";\n  font-size: 24px;\n  vertical-align: middle;\n  margin-bottom: 0px;\n}\n\n.toggleBtn[_ngcontent-%COMP%] {\n  outline: none;\n  border: none;\n}\n\n.nav-link[_ngcontent-%COMP%], .navbar-brand[_ngcontent-%COMP%] {\n  color: #ffffff;\n}\n\n.navbar-toggler-icon[_ngcontent-%COMP%] {\n  float: right;\n  position: absolute;\n  right: 10px;\n  top: 25px;\n}\n\n.mainBody[_ngcontent-%COMP%] {\n  padding: 30px 15px;\n  height: 600px;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi4uXFwuLlxcLi5cXHNpdGUtbGF5b3V0LmNvbXBvbmVudC5zY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUtBO0VBQ0ksWUFBQTtBQUpKOztBQU9BO0VBQ0kscUJBQUE7RUFDQSxlQUFBO0VBQ0Esc0JBQUE7RUFDQSxrQkFBQTtBQUpKOztBQU9BO0VBQ0ksYUFBQTtFQUNBLFlBQUE7QUFKSjs7QUFPQTs7RUFFSSxjQUFBO0FBSko7O0FBT0E7RUFDSSxZQUFBO0VBQ0Esa0JBQUE7RUFDQSxXQUFBO0VBQ0EsU0FBQTtBQUpKOztBQU9BO0VBQ0ksa0JBQUE7RUFDQSxhQUFBO0FBSkoiLCJmaWxlIjoic2l0ZS1sYXlvdXQuY29tcG9uZW50LnNjc3MiLCJzb3VyY2VzQ29udGVudCI6WyIuaGVhZGVyRGl2IHsgXHJcbiAgICAvLyBkaXNwbGF5OiBmbGV4O1xyXG4gICAgLy8gcGFkZGluZzogMzBweCAyMHB4O1xyXG59XHJcblxyXG4ubG9nb0ltZyB7XHJcbiAgICBoZWlnaHQ6IDQ1cHg7XHJcbn1cclxuXHJcbi5uYW1lIHtcclxuICAgIGZvbnQtZmFtaWx5OiBcIk9zd2FsZFwiO1xyXG4gICAgZm9udC1zaXplOiAyNHB4O1xyXG4gICAgdmVydGljYWwtYWxpZ246IG1pZGRsZTtcclxuICAgIG1hcmdpbi1ib3R0b206IDBweDtcclxufVxyXG5cclxuLnRvZ2dsZUJ0biB7XHJcbiAgICBvdXRsaW5lOiBub25lO1xyXG4gICAgYm9yZGVyOiBub25lO1xyXG59XHJcblxyXG4ubmF2LWxpbmssXHJcbi5uYXZiYXItYnJhbmQge1xyXG4gICAgY29sb3I6ICNmZmZmZmY7XHJcbn1cclxuXHJcbi5uYXZiYXItdG9nZ2xlci1pY29uIHtcclxuICAgIGZsb2F0OiByaWdodDtcclxuICAgIHBvc2l0aW9uOiBhYnNvbHV0ZTtcclxuICAgIHJpZ2h0OiAxMHB4O1xyXG4gICAgdG9wOiAyNXB4O1xyXG59XHJcblxyXG4ubWFpbkJvZHkge1xyXG4gICAgcGFkZGluZzogMzBweCAxNXB4O1xyXG4gICAgaGVpZ2h0OiA2MDBweDtcclxufVxyXG4iXX0= */"] });
+    } }, directives: [_ng_bootstrap_ng_bootstrap__WEBPACK_IMPORTED_MODULE_1__["NgbNavbar"], _angular_router__WEBPACK_IMPORTED_MODULE_2__["RouterLinkWithHref"], _angular_router__WEBPACK_IMPORTED_MODULE_2__["RouterOutlet"]], styles: [".logoImg[_ngcontent-%COMP%] {\n  height: 45px;\n}\n\n.name[_ngcontent-%COMP%] {\n  font-family: \"Oswald\";\n  font-size: 24px;\n  vertical-align: middle;\n  margin-bottom: 0px;\n}\n\n.toggleBtn[_ngcontent-%COMP%] {\n  outline: none;\n  border: none;\n}\n\n.nav-link[_ngcontent-%COMP%], .navbar-brand[_ngcontent-%COMP%] {\n  color: #ffffff;\n}\n\n.navbar-toggler-icon[_ngcontent-%COMP%] {\n  float: right;\n  position: absolute;\n  right: 10px;\n  top: 25px;\n}\n\n.mainBody[_ngcontent-%COMP%] {\n  padding: 30px 15px;\n  height: 600px;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi4uXFwuLlxcLi5cXHNpdGUtbGF5b3V0LmNvbXBvbmVudC5zY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUtBO0VBQ0ksWUFBQTtBQUpKOztBQU9BO0VBQ0kscUJBQUE7RUFDQSxlQUFBO0VBQ0Esc0JBQUE7RUFDQSxrQkFBQTtBQUpKOztBQU9BO0VBQ0ksYUFBQTtFQUNBLFlBQUE7QUFKSjs7QUFPQTs7RUFFSSxjQUFBO0FBSko7O0FBT0E7RUFDSSxZQUFBO0VBQ0Esa0JBQUE7RUFDQSxXQUFBO0VBQ0EsU0FBQTtBQUpKOztBQU9BO0VBQ0ksa0JBQUE7RUFDQSxhQUFBO0FBSkoiLCJmaWxlIjoic2l0ZS1sYXlvdXQuY29tcG9uZW50LnNjc3MiLCJzb3VyY2VzQ29udGVudCI6WyIuaGVhZGVyRGl2IHsgXHJcbiAgICAvLyBkaXNwbGF5OiBmbGV4O1xyXG4gICAgLy8gcGFkZGluZzogMzBweCAyMHB4O1xyXG59XHJcblxyXG4ubG9nb0ltZyB7XHJcbiAgICBoZWlnaHQ6IDQ1cHg7XHJcbn1cclxuXHJcbi5uYW1lIHtcclxuICAgIGZvbnQtZmFtaWx5OiBcIk9zd2FsZFwiO1xyXG4gICAgZm9udC1zaXplOiAyNHB4O1xyXG4gICAgdmVydGljYWwtYWxpZ246IG1pZGRsZTtcclxuICAgIG1hcmdpbi1ib3R0b206IDBweDtcclxufVxyXG5cclxuLnRvZ2dsZUJ0biB7XHJcbiAgICBvdXRsaW5lOiBub25lO1xyXG4gICAgYm9yZGVyOiBub25lO1xyXG59XHJcblxyXG4ubmF2LWxpbmssXHJcbi5uYXZiYXItYnJhbmQge1xyXG4gICAgY29sb3I6ICNmZmZmZmY7XHJcbn1cclxuXHJcbi5uYXZiYXItdG9nZ2xlci1pY29uIHtcclxuICAgIGZsb2F0OiByaWdodDtcclxuICAgIHBvc2l0aW9uOiBhYnNvbHV0ZTtcclxuICAgIHJpZ2h0OiAxMHB4O1xyXG4gICAgdG9wOiAyNXB4O1xyXG59XHJcblxyXG4ubWFpbkJvZHkge1xyXG4gICAgcGFkZGluZzogMzBweCAxNXB4O1xyXG4gICAgaGVpZ2h0OiA2MDBweDtcclxufVxyXG4iXX0= */"] });
 
 
 /***/ }),
@@ -336,6 +350,9 @@ __webpack_require__.r(__webpack_exports__);
 
 
 class AppComponent {
+    title(title) {
+        throw new Error('Method not implemented.');
+    }
 }
 AppComponent.ɵfac = function AppComponent_Factory(t) { return new (t || AppComponent)(); };
 AppComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: AppComponent, selectors: [["app-root"]], decls: 1, vars: 0, template: function AppComponent_Template(rf, ctx) { if (rf & 1) {
@@ -362,7 +379,9 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _other_activities_other_activities_component__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./other-activities/other-activities.component */ "lI24");
 /* harmony import */ var _site_layout_site_layout_component__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./site-layout/site-layout.component */ "NIes");
 /* harmony import */ var _home_home_component__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./home/home.component */ "9vUh");
-/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! @angular/core */ "fXoL");
+/* harmony import */ var _ng_bootstrap_ng_bootstrap__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! @ng-bootstrap/ng-bootstrap */ "1kSV");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! @angular/core */ "fXoL");
+
 
 
 
@@ -373,16 +392,18 @@ __webpack_require__.r(__webpack_exports__);
 
 class AppModule {
 }
-AppModule.ɵmod = _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵdefineNgModule"]({ type: AppModule, bootstrap: [_app_component__WEBPACK_IMPORTED_MODULE_2__["AppComponent"]] });
-AppModule.ɵinj = _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵdefineInjector"]({ factory: function AppModule_Factory(t) { return new (t || AppModule)(); }, providers: [], imports: [[
+AppModule.ɵmod = _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵdefineNgModule"]({ type: AppModule, bootstrap: [_app_component__WEBPACK_IMPORTED_MODULE_2__["AppComponent"]] });
+AppModule.ɵinj = _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵdefineInjector"]({ factory: function AppModule_Factory(t) { return new (t || AppModule)(); }, providers: [], imports: [[
             _angular_platform_browser__WEBPACK_IMPORTED_MODULE_0__["BrowserModule"],
+            _ng_bootstrap_ng_bootstrap__WEBPACK_IMPORTED_MODULE_7__["NgbModule"],
             _app_routing_module__WEBPACK_IMPORTED_MODULE_1__["AppRoutingModule"]
         ]] });
-(function () { (typeof ngJitMode === "undefined" || ngJitMode) && _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵsetNgModuleScope"](AppModule, { declarations: [_app_component__WEBPACK_IMPORTED_MODULE_2__["AppComponent"],
+(function () { (typeof ngJitMode === "undefined" || ngJitMode) && _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵsetNgModuleScope"](AppModule, { declarations: [_app_component__WEBPACK_IMPORTED_MODULE_2__["AppComponent"],
         _contact_contact_component__WEBPACK_IMPORTED_MODULE_3__["ContactComponent"],
         _other_activities_other_activities_component__WEBPACK_IMPORTED_MODULE_4__["OtherActivitiesComponent"],
         _site_layout_site_layout_component__WEBPACK_IMPORTED_MODULE_5__["SiteLayoutComponent"],
         _home_home_component__WEBPACK_IMPORTED_MODULE_6__["HomeComponent"]], imports: [_angular_platform_browser__WEBPACK_IMPORTED_MODULE_0__["BrowserModule"],
+        _ng_bootstrap_ng_bootstrap__WEBPACK_IMPORTED_MODULE_7__["NgbModule"],
         _app_routing_module__WEBPACK_IMPORTED_MODULE_1__["AppRoutingModule"]] }); })();
 
 
@@ -470,7 +491,7 @@ ContactComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineC
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](2, "div", 2);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](3, "div", 3);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](4, "span", 4);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](5, " St Ann\u2019s Sneha Bhavan ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](5, " St Ann\u2019s Sneha Bhawan Women's Shelter Home ");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](6, "h1", 5);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](7, " CRISIS INTERVENTION CENTRE FOR WOMEN AT RISK ");
@@ -546,14 +567,36 @@ ContactComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineC
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "OtherActivitiesComponent", function() { return OtherActivitiesComponent; });
 /* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "fXoL");
+/* harmony import */ var _ng_bootstrap_ng_bootstrap__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @ng-bootstrap/ng-bootstrap */ "1kSV");
 
+
+function OtherActivitiesComponent_ng_template_23_Template(rf, ctx) { if (rf & 1) {
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 21);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](1, "img", 22);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+} }
+function OtherActivitiesComponent_ng_template_24_Template(rf, ctx) { if (rf & 1) {
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 21);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](1, "img", 23);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+} }
+function OtherActivitiesComponent_ng_template_25_Template(rf, ctx) { if (rf & 1) {
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 21);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](1, "img", 24);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+} }
+function OtherActivitiesComponent_ng_template_26_Template(rf, ctx) { if (rf & 1) {
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 21);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](1, "img", 25);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+} }
 class OtherActivitiesComponent {
     constructor() { }
     ngOnInit() {
     }
 }
 OtherActivitiesComponent.ɵfac = function OtherActivitiesComponent_Factory(t) { return new (t || OtherActivitiesComponent)(); };
-OtherActivitiesComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: OtherActivitiesComponent, selectors: [["app-other-activities"]], decls: 51, vars: 0, consts: [[1, "displaySection"], [1, "row", "col-12", "section"], [1, "col-lg-6", "col-sm-12", "col-md-12", "subSection", "textSection"], [1, "col-12", "textSectionDiv"], [1, "subHeading"], [1, "subText"], [1, "col-lg-6", "col-sm-12", "col-md-12", "subSection"], [1, "imageContainer", "padding0"], ["src", "../../assets/images/display-images/16.jpg", 1, "mainImg"], [1, "hrLine"], [1, "col-lg-12", "col-sm-12", "col-md-12", "subSection", "invitationSection"], [1, "col-12", "invitationSubSection"], [1, "subText", "textAlignCenter"], [1, "col-12", "footer"], [1, "row", "socialSites"], ["src", "../../assets/images/facebook.png"], ["src", "../../assets/images/instagram.png"], ["src", "../../assets/images/gmail.png"], ["src", "../../assets/images/linkedin.png"], [1, "row", "copyrightText"], [1, "far", "fa-copyright"]], template: function OtherActivitiesComponent_Template(rf, ctx) { if (rf & 1) {
+OtherActivitiesComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: OtherActivitiesComponent, selectors: [["app-other-activities"]], decls: 55, vars: 0, consts: [[1, "displaySection"], [1, "row", "col-12", "section"], [1, "col-lg-6", "col-sm-12", "col-md-12", "subSection", "textSection"], [1, "col-12", "textSectionDiv"], [1, "subHeading"], [1, "subText"], [1, "col-lg-6", "col-sm-12", "col-md-12", "subSection"], [1, "imageContainer", "padding0"], ["ngbSlide", ""], [1, "hrLine"], [1, "col-lg-12", "col-sm-12", "col-md-12", "subSection", "invitationSection"], [1, "col-12", "invitationSubSection"], [1, "subText", "textAlignCenter"], [1, "col-12", "footer"], [1, "row", "socialSites"], ["src", "../../assets/images/facebook.png"], ["src", "../../assets/images/instagram.png"], ["src", "../../assets/images/gmail.png"], ["src", "../../assets/images/linkedin.png"], [1, "row", "copyrightText"], [1, "far", "fa-copyright"], [1, "picsum-img-wrapper"], ["src", "../../assets/images/display-images/16.jpg", 1, "mainImg"], ["src", "../../assets/images/display-images/26.jpg", 1, "mainImg"], ["src", "../../assets/images/display-images/27.jpg", 1, "mainImg"], ["src", "../../assets/images/display-images/32.jpg", 1, "mainImg"]], template: function OtherActivitiesComponent_Template(rf, ctx) { if (rf & 1) {
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "section", 0);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "div", 1);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](2, "div", 2);
@@ -587,53 +630,58 @@ OtherActivitiesComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵ�
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](20, "div", 6);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](21, "div", 7);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](22, "img", 8);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](22, "ngb-carousel");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](23, OtherActivitiesComponent_ng_template_23_Template, 2, 0, "ng-template", 8);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](24, OtherActivitiesComponent_ng_template_24_Template, 2, 0, "ng-template", 8);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](25, OtherActivitiesComponent_ng_template_25_Template, 2, 0, "ng-template", 8);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](26, OtherActivitiesComponent_ng_template_26_Template, 2, 0, "ng-template", 8);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](23, "hr", 9);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](24, "div", 1);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](25, "div", 10);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](26, "div", 11);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](27, "h3", 4);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](28, " COVID-19 Response MH ");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](29, "div", 5);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](30, " 1000 Migrants of MP, UP, Bihar, Chhattisgarh, Orissa, West Bengal & different parts of Maharashtra, residing at Chakkan were supported with Dry Food Kits. ");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](31, "br");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](32, " 700 Migrants on foot supported with food, water and travel plan. ");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](33, "br");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](34, " (31st February 2020 to 20th March 2020) ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](27, "hr", 9);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](28, "div", 1);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](29, "div", 10);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](30, "div", 11);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](31, "h3", 4);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](32, " COVID-19 Response MH ");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](33, "div", 5);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](34, " 1000 Migrants of MP, UP, Bihar, Chhattisgarh, Orissa, West Bengal & different parts of Maharashtra, residing at Chakkan were supported with Dry Food Kits. ");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](35, "br");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](36, "div", 12);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](37, " Supported by CYDA - Centre for Youth Development & Activities ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](36, " 700 Migrants on foot supported with food, water and travel plan. ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](37, "br");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](38, " (31st February 2020 to 20th March 2020) ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](39, "br");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](40, "div", 12);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](41, " Supported by CYDA - Centre for Youth Development & Activities ");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](38, "div", 13);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](39, "div", 14);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](40, "a");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](41, "img", 15);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](42, "a");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](43, "img", 16);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](42, "div", 13);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](43, "div", 14);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](44, "a");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](45, "img", 17);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](45, "img", 15);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](46, "a");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](47, "img", 18);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](47, "img", 16);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](48, "a");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](49, "img", 17);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](50, "a");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](51, "img", 18);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](48, "div", 19);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](49, "i", 20);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](50, " A Unit of St.Ann\u2019s Society, Maharashtra Trust Reg.No.253, Ahmednagar");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](52, "div", 19);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](53, "i", 20);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](54, " A Unit of St.Ann\u2019s Society, Maharashtra Trust Reg.No.253, Ahmednagar");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-    } }, styles: ["\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJvdGhlci1hY3Rpdml0aWVzLmNvbXBvbmVudC5zY3NzIn0= */"] });
+    } }, directives: [_ng_bootstrap_ng_bootstrap__WEBPACK_IMPORTED_MODULE_1__["NgbCarousel"], _ng_bootstrap_ng_bootstrap__WEBPACK_IMPORTED_MODULE_1__["NgbSlide"]], styles: ["\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJvdGhlci1hY3Rpdml0aWVzLmNvbXBvbmVudC5zY3NzIn0= */"] });
 
 
 /***/ }),
