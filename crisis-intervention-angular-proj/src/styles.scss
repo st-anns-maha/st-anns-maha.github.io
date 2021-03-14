@@ -54,7 +54,7 @@ body {
 }
 
 .navbar-light .navbar-nav .nav-link {
-    color: #000!important;
+    color: #ffffff !important;
     
     &:hover {
         background-color: #7eac91;
@@ -108,6 +108,7 @@ a {
 
             .subHeading {
                 font-size: 18px;
+                letter-spacing: 1px;
                 word-break: break-word;
             }
 

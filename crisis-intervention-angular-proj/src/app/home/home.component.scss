@@ -1,5 +1,21 @@
 .darkBg {
+    position: relative;
     background-color: black;
+    z-index: 1;
+}
+
+.darkBg:before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: -1;
+    opacity: .5;
+    background-image: url(../../assets/images/display-images/40.png);
+    background-repeat: round;
 }
 
 .bg2 {
