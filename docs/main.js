@@ -29,17 +29,17 @@ __webpack_require__.r(__webpack_exports__);
 class HomeComponent {
     constructor() {
         this.heading = 'CRISIS INTERVENTION CENTRE FOR WOMEN AT RISK';
-        this.title = `St Ann's Sneha Bhavan Women's Shelter Home`;
+        this.title = `St Ann's Sneha Bhawan Women's Shelter Home`;
     }
     ngOnInit() {
         setInterval(() => {
-            this.heading = (this.heading == 'CRISIS INTERVENTION CENTRE FOR WOMEN AT RISK') ? 'पिडीत महिलांसाठी आधार गृह' : 'CRISIS INTERVENTION CENTRE FOR WOMEN AT RISK';
-            this.title = (this.title == `St Ann's Sneha Bhavan Women's Shelter Home`) ? 'संत अन्ना स्नेह भवन महिला निवारा घर' : `St Ann's Sneha Bhavan Women's Shelter Home`;
+            this.heading = (this.heading == 'CRISIS INTERVENTION CENTRE FOR WOMEN AT RISK') ? 'जोखीम असलेल्या महिलांसाठी संकट इंटरव्हेंशन सेंटर' : 'CRISIS INTERVENTION CENTRE FOR WOMEN AT RISK';
+            this.title = (this.title == `St Ann's Sneha Bhawan Women's Shelter Home`) ? 'सेंट एनस् स्नेहा भवन महिला आश्रयस्थान' : `St Ann's Sneha Bhawan Women's Shelter Home`;
         }, 5000);
     }
 }
 HomeComponent.ɵfac = function HomeComponent_Factory(t) { return new (t || HomeComponent)(); };
-HomeComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: HomeComponent, selectors: [["app-home"]], decls: 150, vars: 2, consts: [[1, "displaySection"], [1, "row", "col-12", "section"], [1, "col-lg-6", "col-sm-12", "col-md-12", "subSection", "titleSection", "darkBg"], [1, "col-12", "titleSectionDiv"], [1, "subHeading"], [1, "mainHeading"], [1, "col-lg-6", "col-sm-12", "col-md-12", "subSection"], [1, "imageContainer"], ["src", "../../assets/images/display-images/41.jpg", 1, "mainImg"], [1, "hrLine"], [1, "imageContainer", "padding0"], [1, "col-12", "row", "padding0"], [1, "col-6", "padding0"], ["src", "../../assets/images/display-images/2.jpg", 1, "multipleImages"], ["src", "../../assets/images/display-images/4.jpg", 1, "multipleImages"], ["src", "../../assets/images/display-images/19.jpg", 1, "multipleImages"], ["src", "../../assets/images/display-images/6.jpg", 1, "multipleImages"], [1, "col-lg-6", "col-sm-12", "col-md-12", "subSection", "textSection"], [1, "col-12", "textSectionDiv"], [1, "subText"], ["src", "../../assets/images/display-images/42.jpg", 1, "mainImg"], [1, "col-lg-12", "col-sm-12", "col-md-12", "subSection", "invitationSection"], [1, "col-12", "invitationSubSection"], [1, "subText", "textAlignCenter"], [1, "contactBtn"], ["routerLink", "/contact"], ["src", "../../assets/images/display-images/13.jpg", 1, "mainImg"], [1, "col-12", "footer"], [1, "row", "socialSites"], ["src", "../../assets/images/facebook.png"], ["src", "../../assets/images/instagram.png"], ["href", "mailto:stannsmaha@gmail.com"], ["src", "../../assets/images/gmail.png"], ["src", "../../assets/images/linkedin.png"], [1, "row", "copyrightText"], [1, "far", "fa-copyright"]], template: function HomeComponent_Template(rf, ctx) { if (rf & 1) {
+HomeComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: HomeComponent, selectors: [["app-home"]], decls: 130, vars: 2, consts: [[1, "displaySection"], [1, "row", "col-12", "section"], [1, "col-lg-6", "col-sm-12", "col-md-12", "subSection", "titleSection", "darkBg"], [1, "col-12", "titleSectionDiv"], [1, "subHeading"], [1, "mainHeading"], [1, "col-lg-6", "col-sm-12", "col-md-12", "subSection"], [1, "imageContainer"], ["src", "../../assets/images/display-images/20.jpg", 1, "mainImg"], [1, "hrLine"], [1, "imageContainer", "padding0"], [1, "col-12", "row", "padding0"], [1, "col-6", "padding0"], ["src", "../../assets/images/display-images/2.jpg", 1, "multipleImages"], ["src", "../../assets/images/display-images/4.jpg", 1, "multipleImages"], ["src", "../../assets/images/display-images/19.jpg", 1, "multipleImages"], ["src", "../../assets/images/display-images/6.jpg", 1, "multipleImages"], [1, "col-lg-6", "col-sm-12", "col-md-12", "subSection", "textSection"], [1, "col-12", "textSectionDiv"], [1, "subText"], ["src", "../../assets/images/display-images/22.jpg", 1, "mainImg"], [1, "col-lg-12", "col-sm-12", "col-md-12", "subSection", "invitationSection"], [1, "col-12", "invitationSubSection"], [1, "subText", "textAlignCenter"], [1, "contactBtn"], ["routerLink", "/contact"], ["src", "../../assets/images/display-images/13.jpg", 1, "mainImg"], [1, "col-12", "footer"], [1, "row", "socialSites"], ["src", "../../assets/images/facebook.png"], ["src", "../../assets/images/instagram.png"], ["src", "../../assets/images/gmail.png"], ["src", "../../assets/images/linkedin.png"], [1, "row", "copyrightText"], [1, "far", "fa-copyright"]], template: function HomeComponent_Template(rf, ctx) { if (rf & 1) {
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "section", 0);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "div", 1);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](2, "div", 2);
@@ -86,7 +86,7 @@ HomeComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComp
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](28, " Offers a helping hand to the women in crisis ");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](29, "p", 19);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](30, " St. Ann's Sneha Bhavan Women's Shelter Home renders its helping hand to the women in crisis, who need support, understanding, safety and security. Life is precious and it is to be valued, cared, protected, dignified and up held. ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](30, " St. Ann's Sneha Bhawan Women's Shelter Home renders its helping hand to the women in crisis, who need support, understanding, safety and security. Life is precious and it is to be valued, cared, protected, dignified and up held. ");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
@@ -219,65 +219,34 @@ HomeComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComp
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](111, "br");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](112, "div", 19);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](113, " We run Social Welfare and Developmental Programs like ");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](114, "ul");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](115, "li");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](116, "Village Development");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](113, " Our Work is like a Drop in the Ocean. But if the drop were not there the Ocean would be Missing. ");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](117, "li");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](118, "Promote Organic Farming ");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](119, "li");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](120, "Upliftment of Women through Self-help Groups");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](121, "li");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](122, "Women Shelter Homes");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](123, "li");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](124, "Old Age Homes");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](125, "li");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](126, "HIV/AIDS centre");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](127, "li");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](128, "Boarding for poor children");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](114, "br");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](115, "div", 19);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](116, " Lets Dream together, ACt together and Make Someones Life Better. ");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](117, "div", 27);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](118, "div", 28);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](119, "a");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](120, "img", 29);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](129, "hr", 9);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](130, "div", 1);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](131, "div", 21);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](132, "div", 22);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](133, "div", 23);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](134, " Our Work is like a Drop in the Ocean. But if the drop were not there the Ocean would be Missing. ");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](135, "br");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](136, " Lets Dream together, Act together and Make Someones Life Better. ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](121, "a");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](122, "img", 30);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](123, "a");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](124, "img", 31);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](137, "div", 27);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](138, "div", 28);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](139, "a");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](140, "img", 29);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](141, "a");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](142, "img", 30);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](143, "a", 31);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](144, "img", 32);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](145, "a");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](146, "img", 33);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](125, "a");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](126, "img", 32);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](147, "div", 34);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](148, "i", 35);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](149, " A Unit of St.Ann\u2019s Society, Maharashtra Trust Reg.No.253, Ahmednagar");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](127, "div", 33);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](128, "i", 34);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](129, " A Unit of St.Ann\u2019s Society, Maharashtra Trust Reg.No.253, Ahmednagar");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
     } if (rf & 2) {
@@ -519,13 +488,13 @@ class ContactComponent {
     }
 }
 ContactComponent.ɵfac = function ContactComponent_Factory(t) { return new (t || ContactComponent)(); };
-ContactComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: ContactComponent, selectors: [["app-contact"]], decls: 40, vars: 1, consts: [[1, "displaySection"], [1, "row", "col-12", "section"], [1, "col-lg-6", "col-sm-12", "col-md-12", "padding0", "subSection", "addressMapContainer"], [1, "addressMapSubContainer"], [1, "subHeading"], [1, "mainHeading"], [1, "addressContainer"], [1, "col-lg-6", "col-sm-12", "col-md-12", "padding0", "subSection"], [1, "mapContainer"], ["id", "map", 1, "map"], [1, "col-lg-6", "col-md-12", "col-sm-12", "padding0"], [1, "contactNos", "col-lg-12", "padding0"], ["title", "Click to copy Helpline No", 1, "helplineNo", 3, "click"], [1, "far", "fa-copy", "copyNo"], [1, "copiedtxt"], [1, "row", "socialSites"], ["src", "../../assets/images/facebook.png"], ["src", "../../assets/images/instagram.png"], ["href", "mailto:stannsmaha@gmail.com"], ["src", "../../assets/images/gmail.png"], ["src", "../../assets/images/linkedin.png"], [1, "row", "copyrightText"], [1, "far", "fa-copyright"]], template: function ContactComponent_Template(rf, ctx) { if (rf & 1) {
+ContactComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: ContactComponent, selectors: [["app-contact"]], decls: 40, vars: 1, consts: [[1, "displaySection"], [1, "row", "col-12", "section"], [1, "col-lg-6", "col-sm-12", "col-md-12", "padding0", "subSection", "addressMapContainer"], [1, "addressMapSubContainer"], [1, "subHeading"], [1, "mainHeading"], [1, "addressContainer"], [1, "col-lg-6", "col-sm-12", "col-md-12", "padding0", "subSection"], [1, "mapContainer"], ["id", "map", 1, "map"], [1, "col-lg-6", "col-md-12", "col-sm-12", "padding0"], [1, "contactNos", "col-lg-12", "padding0"], ["title", "Click to copy Helpline No", 1, "helplineNo", 3, "click"], [1, "far", "fa-copy", "copyNo"], [1, "copiedtxt"], [1, "row", "socialSites"], ["src", "../../assets/images/facebook.png"], ["src", "../../assets/images/instagram.png"], ["src", "../../assets/images/gmail.png"], ["src", "../../assets/images/linkedin.png"], [1, "row", "copyrightText"], [1, "far", "fa-copyright"]], template: function ContactComponent_Template(rf, ctx) { if (rf & 1) {
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "section", 0);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "div", 1);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](2, "div", 2);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](3, "div", 3);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](4, "span", 4);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](5, " St Ann\u2019s Sneha Bhavan Women's Shelter Home ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](5, " St Ann\u2019s Sneha Bhawan Women's Shelter Home ");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](6, "h1", 5);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](7, " CRISIS INTERVENTION CENTRE FOR WOMEN AT RISK ");
@@ -568,15 +537,15 @@ ContactComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineC
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](31, "a");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](32, "img", 17);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](33, "a", 18);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](34, "img", 19);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](33, "a");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](34, "img", 18);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](35, "a");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](36, "img", 20);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](36, "img", 19);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](37, "div", 21);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](38, "i", 22);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](37, "div", 20);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](38, "i", 21);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](39, " A Unit of St.Ann\u2019s Society, Maharashtra Trust Reg.No.253, Ahmednagar");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
@@ -605,23 +574,23 @@ __webpack_require__.r(__webpack_exports__);
 
 
 function OtherActivitiesComponent_ng_template_31_Template(rf, ctx) { if (rf & 1) {
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 22);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](1, "img", 23);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 21);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](1, "img", 22);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 } }
 function OtherActivitiesComponent_ng_template_32_Template(rf, ctx) { if (rf & 1) {
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 22);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](1, "img", 24);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 21);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](1, "img", 23);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 } }
 function OtherActivitiesComponent_ng_template_33_Template(rf, ctx) { if (rf & 1) {
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 22);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](1, "img", 25);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 21);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](1, "img", 24);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 } }
 function OtherActivitiesComponent_ng_template_34_Template(rf, ctx) { if (rf & 1) {
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 22);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](1, "img", 26);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 21);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](1, "img", 25);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 } }
 class OtherActivitiesComponent {
@@ -630,7 +599,7 @@ class OtherActivitiesComponent {
     }
 }
 OtherActivitiesComponent.ɵfac = function OtherActivitiesComponent_Factory(t) { return new (t || OtherActivitiesComponent)(); };
-OtherActivitiesComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: OtherActivitiesComponent, selectors: [["app-other-activities"]], decls: 63, vars: 0, consts: [[1, "displaySection"], [1, "row", "col-12", "section"], [1, "col-lg-6", "col-sm-12", "col-md-12", "subSection", "textSection"], [1, "col-12", "textSectionDiv"], [1, "subHeading"], [1, "subText"], [1, "col-lg-6", "col-sm-12", "col-md-12", "subSection"], [1, "imageContainer", "padding0"], ["ngbSlide", ""], [1, "hrLine"], [1, "col-lg-12", "col-sm-12", "col-md-12", "subSection", "invitationSection"], [1, "col-12", "invitationSubSection"], [1, "subText", "textAlignCenter"], [1, "col-12", "footer"], [1, "row", "socialSites"], ["src", "../../assets/images/facebook.png"], ["src", "../../assets/images/instagram.png"], ["href", "mailto:stannsmaha@gmail.com"], ["src", "../../assets/images/gmail.png"], ["src", "../../assets/images/linkedin.png"], [1, "row", "copyrightText"], [1, "far", "fa-copyright"], [1, "picsum-img-wrapper"], ["src", "../../assets/images/display-images/16.jpg", 1, "mainImg"], ["src", "../../assets/images/display-images/26.jpg", 1, "mainImg"], ["src", "../../assets/images/display-images/27.jpg", 1, "mainImg"], ["src", "../../assets/images/display-images/32.jpg", 1, "mainImg"]], template: function OtherActivitiesComponent_Template(rf, ctx) { if (rf & 1) {
+OtherActivitiesComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: OtherActivitiesComponent, selectors: [["app-other-activities"]], decls: 63, vars: 0, consts: [[1, "displaySection"], [1, "row", "col-12", "section"], [1, "col-lg-6", "col-sm-12", "col-md-12", "subSection", "textSection"], [1, "col-12", "textSectionDiv"], [1, "subHeading"], [1, "subText"], [1, "col-lg-6", "col-sm-12", "col-md-12", "subSection"], [1, "imageContainer", "padding0"], ["ngbSlide", ""], [1, "hrLine"], [1, "col-lg-12", "col-sm-12", "col-md-12", "subSection", "invitationSection"], [1, "col-12", "invitationSubSection"], [1, "subText", "textAlignCenter"], [1, "col-12", "footer"], [1, "row", "socialSites"], ["src", "../../assets/images/facebook.png"], ["src", "../../assets/images/instagram.png"], ["src", "../../assets/images/gmail.png"], ["src", "../../assets/images/linkedin.png"], [1, "row", "copyrightText"], [1, "far", "fa-copyright"], [1, "picsum-img-wrapper"], ["src", "../../assets/images/display-images/16.jpg", 1, "mainImg"], ["src", "../../assets/images/display-images/26.jpg", 1, "mainImg"], ["src", "../../assets/images/display-images/27.jpg", 1, "mainImg"], ["src", "../../assets/images/display-images/32.jpg", 1, "mainImg"]], template: function OtherActivitiesComponent_Template(rf, ctx) { if (rf & 1) {
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "section", 0);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "div", 1);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](2, "div", 2);
@@ -715,15 +684,15 @@ OtherActivitiesComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵ�
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](54, "a");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](55, "img", 16);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](56, "a", 17);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](57, "img", 18);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](56, "a");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](57, "img", 17);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](58, "a");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](59, "img", 19);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](59, "img", 18);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](60, "div", 20);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](61, "i", 21);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](60, "div", 19);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](61, "i", 20);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](62, " A Unit of St.Ann\u2019s Society, Maharashtra Trust Reg.No.253, Ahmednagar");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
